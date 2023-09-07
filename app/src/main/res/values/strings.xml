@@ -1,3 +1,175 @@
 <resources>
     <string name="app_name">BookApp</string>
+    <string name="get_knowledge">GET KNOWLEDGE</string>
+    <string name="ob_one_subtitle">Increase your knowledge\nby reading books</string>
+    <string name="skip">SKIP</string>
+    <string name="next">NEXT</string>
+    <string name="latest_book">LATEST BOOK</string>
+    <string name="find_the_latest_books_nto_update_your_reading_list">Find the latest books\nto update your reading list</string>
+    <string name="detail_information">DETAIL INFORMATION</string>
+    <string name="find_the_detail_information_nabout_the_books">Find the detail information\nabout the books</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="detail">Detail</string>
+    <string name="author">Author</string>
+    <string name="publisher">Publisher</string>
+    <string name="book_category">Book Category</string>
+    <string name="language">Language</string>
+    <string name="number_of_pages">Number of Pages</string>
+    <string name="share">SHARE</string>
+
+
+    <string-array name="poster">
+        <item>@drawable/buku_bumi_manusia</item>
+        <item>@drawable/buku_geez1</item>
+        <item>@drawable/buku_segalanya_ambyar</item>
+        <item>@drawable/buku_catatan_juang</item>
+        <item>@drawable/buku_disforsia_inersia</item>
+        <item>@drawable/buku_distilasi_alkena</item>
+        <item>@drawable/buku_garis_waktu</item>
+        <item>@drawable/buku_geez2</item>
+        <item>@drawable/buku_geez3</item>
+        <item>@drawable/buku_kolase</item>
+        <item>@drawable/buku_thekiterunner</item>
+        <item>@drawable/buku_bodo_amat</item>
+    </string-array>
+
+    <string-array name="title">
+        <item>Bumi Manusia</item>
+        <item>Geez and Ann #1</item>
+        <item>Segala-galanya Ambyar</item>
+        <item>Catatan Juang</item>
+        <item>Disforsia Inersia</item>
+        <item>Distilasi Alkena</item>
+        <item>Garis Waktu</item>
+        <item>Geez and Ann #2</item>
+        <item>Geez and Ann #3</item>
+        <item>Konspirasi Alam Semesta</item>
+        <item>The Kite Runner</item>
+        <item>Sebuah Seni untuk Bersikap Bodo Amat</item>
+    </string-array>
+
+    <string-array name="desc">
+        <item>    "Novel Bumi Manusia bercerita tentang perjuangan tokoh Minke memperjuangan kedudukan pribumi melawan diskriminasi Belanda pada masa kolonial Belanda di awal abad keduapuluh. Sebagai anak bupati, Minke bisa bersekolah, dan ia menggunakan pengetahuannya untuk melawan kolonialisme Belanda.",
+           
+    </item>
+        <item>"Berat sekali rasanya harus meninggalkanmu ke Berlin.\n" +
+        "Harus membiarkanmu sendirian dengan banyak pertanyaan. Kamu bisa sabar, kan? Tunggu ya,
+        Geez akan pulang untuk Ann.",
+    </item>
+        <item>"Apakah kamu merasa kecewa dengan hidupmu? Apakah kamu merasa cemas secara terus-menerus?
+        Apakah kamu merasa bahwa dunia di sekelilingmu buruk dan jahat?\nYa, dunia ini memang kacau,
+        dunia ini memang ambyar, tapi itu karena Anda tidak sadar bahwa harapan Anda terlalu
+        disilaukan oleh keinginan-keinginan Anda sendiri yang tidak masuk akal.",
+    </item>
+        <item>"Catatan Juang adalah buku ketiga karya Fiersa Besari dan merupakan sempalan dari novel
+        sebelumnya yang berjudul Konspirasi Alam Semesta yang dapat kita nikmati secara terpisah.
+        Suar, sang tokoh utama dalam buku ini, adalah seorang karyawan swasta yang melupakan
+        mimpinya hingga menemukan buku sampul merah ini.",
+    </item>
+        <item>"Hidup laksana bianglala, berputar menebar bahagia seakan semua baik-baik saja lalu lupa
+        bahwa poros gerak tetap diam dan tak ke mana-mana",
+    </item>
+        <item>"Distilasi Alkena adalah sebuah proses memisahkan dua hati yang pada dasarnya tak bisa
+        dipisahkan karena suatu ikatan perasaan. Walaupun dalam perjalanannya, hati akan tumbuh
+        untuk bisa merelakan.",
+    </item>
+        <item>"Pada sebuah garis waktu yang merangkak maju, akan ada saatnya kau bertemu dengan satu
+        orang yang mengubah hidupmu untuk selamanya. ",
+    </item>
+        <item>"Sebulan lebih aku sudah berada di Berlin. Mencari, mencari, dan mencari. Sampai akhirnya,
+        aku menemukan sebuah jawaban yang terpaksa aku terima. Bukan jawaban terbaik, tetapi aku
+        harus bisa menghargai itu.",
+    </item>
+        <item>"Geez kembali dari Berlin dengan kondisi baik dan siap untuk melanjutkan ceritanya dengan
+        Ann. Semua yang Geez kira akan mudah dan indah, ternyata berbeda dengan Ann yang sudah mulai
+        belajar merapikan hidupnya dan memulai cerita baru tanpa Geez sampai ketika Geez kembali
+        hendak menjemput dan membawanya ke Berlin.",
+    </item>
+        <item>"Seperti apakah warna cinta? Apakah merah muda mewakili rekahannya, ataukah kelabu
+        mewakili pecahannya?",
+    </item>
+        <item>"The unforgettable, heartbreaking story of the unlikely friendship between a wealthy boy
+        and the son of his father's servant, The Kite Runner is a beautifully crafted novel set in a
+        country that is in the process of being destroyed.",
+    </item>
+        <item>"Selama beberapa tahun belakangan, Mark Manson—melalui blognya yang sangat populer—telah
+        membantu mengoreksi harapan-harapan delusional kita, baik mengenai diri kita sendiri maupun
+        dunia. Ia kini menuangkan buah pikirnya yang keren itu di dalam buku hebat ini.",
+    </item>
+    </string-array>
+
+    <string-array name="author">
+        <item>Pramoedya Ananta Toer</item>
+        <item>Rintik Sedu</item>
+        <item>Mark Mansion</item>
+        <item>Fiersa Besari</item>
+        <item>Wira Nagara</item>
+        <item>Wira Nagara</item>
+        <item>Fiersa Besari</item>
+        <item>Rintik Sedu</item>
+        <item>Rintik Sedu</item>
+        <item>Fiersa Besari</item>
+        <item>Khaled Hosseini</item>
+        <item>Mark Mansion</item>
+    </string-array>
+
+    <string-array name="publisher">
+        <item>Hasta Mitra</item>
+        <item>Gagas Media</item>
+        <item>Gramedia Widiasarana Indonesia</item>
+        <item>MediaKita</item>
+        <item>MediaKita</item>
+        <item>MediaKita</item>
+        <item>MediaKita</item>
+        <item>Gagas Media</item>
+        <item>Gagas Media</item>
+        <item>MediaKita</item>
+        <item>Riverhead Books</item>
+        <item>Gramedia Widiasarana Indonesia</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>Novel, Fiksi Sejarah</item>
+        <item>Fiksi, Romance</item>
+        <item>Nonfiksi, Self Improvement</item>
+        <item>Fiksi</item>
+        <item>Fiksi</item>
+        <item>Fiksi</item>
+        <item>Fiksi</item>
+        <item>Fiksi</item>
+        <item>Fiksi</item>
+        <item>Fiksi</item>
+        <item>Nonfiksi, Self Improvement</item>
+        <item>Nonfiksi, Self Improvement</item>
+    </string-array>
+
+    <string-array name="language">
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Indonesia</item>
+    </string-array>
+
+    <string-array name="page">
+        <item>535</item>
+        <item>264</item>
+        <item>368</item>
+        <item>312</item>
+        <item>146</item>
+        <item>172</item>
+        <item>216</item>
+        <item>250</item>
+        <item>224</item>
+        <item>371</item>
+        <item>256</item>
+        <item>244</item>
+    </string-array>
 </resources>
